@@ -1,0 +1,62 @@
+extends index
+
+block content_core
+  div.row-fluid
+    div#content.span12
+      div.well.span12
+        div.span4(style="text-align: center;")
+          legend= $"Right now"
+          p#connections(style="font-size: 96px;line-height: 96px;") 0
+          p#connections-singular= $"active user on the server"
+          p#connections-plural(style="display: none;")= $"active users on the server"
+          div.progress
+            div#players-percent.bar.bar-success(style="width: 0%; display: none;") 0%
+            div#observers-percent.bar.bar-info(style="width: 100%;") 100%
+          div.row-fluid
+            div.span6
+              span#players.badge.badge-success(style="display: none;") 0
+              strong#players-label(style="display: none;")= $Players
+            div.offset4
+              span#observers.badge.badge-info 0
+              strong#observers-label(style="display: none;")= $Observers
+        div.span7.offset1
+          legend= $Messages
+          div.span4
+            div#graph-per-minute(style="max-height: 200px;")
+          div.span7
+            div#graph-per-second 
+      div.span11
+        legend= $"Message History"
+        div.row-fluid
+          table#messages.table.table-bordered.table-striped.table-condensed
+            thead
+              tr
+                td= $From
+                td= $Message
+                td= $Content
+                td= $Timestamp
+                td= $Latency
+            tbody 
+        div.span5
+          legend= $"Messages Per Type"
+          table#message.table.table-bordered.table-striped.table-condensed
+            thead
+              tr
+                td= $Action
+                td= $Received
+            tbody
+        div.span4.offset1
+          legend= $"Top Active Games"
+          table#top-games.table.table-bordered.table-striped.table-condensed
+            thead
+              tr
+                td= $Name
+                td= $Players
+                td= $Entities
+                td= $Blocks
+                td= $Messages
+            tbody
+        legend= $Latency
+        div.span11
+          div#graph-players-latency(style="max-height: 200px;")
+

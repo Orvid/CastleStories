@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CD78E92-5C12-4641-A75E-E096F1B97AE9}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>std.event.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>StaticLibrary</Target>
+    <OutputName>std.event.a</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>std.event.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="std\event.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="std\" />
+  </ItemGroup>
+</Project>

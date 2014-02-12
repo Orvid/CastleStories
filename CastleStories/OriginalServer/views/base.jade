@@ -1,0 +1,52 @@
+extends layout
+ 
+block head
+  include bootstrap
+  link(rel='stylesheet', href='/css/style.css')
+
+block blockbots 
+  meta(name="robots", content="NONE,NOARCHIVE")
+    
+block content
+    #wrap
+      block container
+        #container
+          block header
+            div#header.header
+              #branding
+                a(href="#")
+                  h1#site-name
+                    block branding
+              block header_time
+              block header_content
+              div#user-tools
+                = t('app.welcome')
+                |, 
+                strong Anonymous.
+                span.user-links
+                  block userlinks
+              block nav-global
+              
+          div.two-columns
+            block content-left
+            block content-center
+
+      <!-- Sticky footer push -->
+      #push
+        
+block footer
+  div#footer.footer
+    div.content
+      div.tools
+        block footer_links
+      div.copyright
+        block copyright
+      div.branding
+        block footer_branding
+        
+block extrajs
+  script(src='/js/date.format.js')
+  script(src='/js/script.js')
+  for s in extrajs
+    script(src=s)
+        

@@ -1,0 +1,152 @@
+div#left-nav.left-nav
+  ul
+    block menu_home
+      if menu == 'home' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/")
+          i.icon-home
+          = t('app.home') 
+    block menu_realtime
+      if menu == 'realtime' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/realtime/overview")
+          i.icon-repeat
+          = t('app.realtime') 
+        ul
+          if submenu == 'overview' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/realtime/overview")= t('app.overview')
+    block menu_users
+      if menu == 'users' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/users/players")
+          i.icon-user
+          = t('app.users') 
+        ul
+          if submenu == 'players' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/users/players")= t('app.active_players')
+          if submenu == 'observers' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/users/observers")= t('app.observers')
+    block menu_sessions
+      if menu == 'sessions' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/sessions/current")
+          i.icon-eye-open
+          = t('app.sessions')
+        ul
+          if submenu == 'current' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/sessions/current")= t('app.current')
+          if submenu == 'persistent' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/sessions/persistent")= t('app.persistent')
+          if submenu == 'recorded' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/sessions/recorded")= t('app.recorded')
+    block menu_maps
+      if menu == 'maps' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/maps")
+          i.icon-map-marker
+          = t('app.maps') 
+    block menu_entities
+      if menu == 'entities' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/entities/spawned")
+          i.icon-th
+          = t('app.entities')  
+        ul
+          if submenu == 'spawned' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/entities/spawned")= t('app.spawned')
+          if submenu == 'blocks' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/entities/blocks")= t('app.blocks')
+    block menu_settings
+      if menu == 'settings' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/settings/games")
+          i.icon-cog
+          = t('app.settings') 
+        ul
+          if submenu == 'games' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/settings/games")= t('app.games')
+          if submenu == 'server' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/settings/server")= t('app.server')
+    block menu_auth
+      if menu == 'auth' 
+        - var c='active'
+      else 
+        - var c=''
+      li(class=c)
+        a(href="/auth/admins")
+          i.icon-lock
+          = t('app.auth')   
+        ul
+          if submenu == 'admins' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/auth/admins")= t('app.admins')
+          if submenu == 'server' 
+            - var c='active'
+          else
+            - var c=''
+          li(class=c)
+            a(href="/auth/server")= t('app.server')        

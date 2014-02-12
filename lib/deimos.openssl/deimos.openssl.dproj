@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{498D3D41-DE42-4C5B-B8F0-765296236736}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>deimos.openssl.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>StaticLibrary</Target>
+    <OutputName>deimos.openssl.a</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>deimos.openssl.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="deimos\openssl\_d_util.d" />
+    <Compile Include="deimos\openssl\aes.d" />
+    <Compile Include="deimos\openssl\asn1.d" />
+    <Compile Include="deimos\openssl\asn1_mac.d" />
+    <Compile Include="deimos\openssl\asn1t.d" />
+    <Compile Include="deimos\openssl\bio.d" />
+    <Compile Include="deimos\openssl\blowfish.d" />
+    <Compile Include="deimos\openssl\bn.d" />
+    <Compile Include="deimos\openssl\buffer.d" />
+    <Compile Include="deimos\openssl\camellia.d" />
+    <Compile Include="deimos\openssl\cast_.d" />
+    <Compile Include="deimos\openssl\cms.d" />
+    <Compile Include="deimos\openssl\comp.d" />
+    <Compile Include="deimos\openssl\conf.d" />
+    <Compile Include="deimos\openssl\conf_api.d" />
+    <Compile Include="deimos\openssl\crypto.d" />
+    <Compile Include="deimos\openssl\des.d" />
+    <Compile Include="deimos\openssl\des_old.d" />
+    <Compile Include="deimos\openssl\dh.d" />
+    <Compile Include="deimos\openssl\dsa.d" />
+    <Compile Include="deimos\openssl\dso.d" />
+    <Compile Include="deimos\openssl\dtls1.d" />
+    <Compile Include="deimos\openssl\e_os2.d" />
+    <Compile Include="deimos\openssl\ebcdic.d" />
+    <Compile Include="deimos\openssl\ec.d" />
+    <Compile Include="deimos\openssl\ecdh.d" />
+    <Compile Include="deimos\openssl\ecdsa.d" />
+    <Compile Include="deimos\openssl\engine.d" />
+    <Compile Include="deimos\openssl\err.d" />
+    <Compile Include="deimos\openssl\evp.d" />
+    <Compile Include="deimos\openssl\hmac.d" />
+    <Compile Include="deimos\openssl\idea.d" />
+    <Compile Include="deimos\openssl\krb5_asn.d" />
+    <Compile Include="deimos\openssl\kssl.d" />
+    <Compile Include="deimos\openssl\lhash.d" />
+    <Compile Include="deimos\openssl\md4.d" />
+    <Compile Include="deimos\openssl\md5.d" />
+    <Compile Include="deimos\openssl\mdc2.d" />
+    <Compile Include="deimos\openssl\modes.d" />
+    <Compile Include="deimos\openssl\obj_mac.d" />
+    <Compile Include="deimos\openssl\objects.d" />
+    <Compile Include="deimos\openssl\ocsp.d" />
+    <Compile Include="deimos\openssl\opensslconf.d" />
+    <Compile Include="deimos\openssl\opensslv.d" />
+    <Compile Include="deimos\openssl\ossl_typ.d" />
+    <Compile Include="deimos\openssl\pem.d" />
+    <Compile Include="deimos\openssl\pem2.d" />
+    <Compile Include="deimos\openssl\pkcs12.d" />
+    <Compile Include="deimos\openssl\pkcs7.d" />
+    <Compile Include="deimos\openssl\pqueue.d" />
+    <Compile Include="deimos\openssl\rand.d" />
+    <Compile Include="deimos\openssl\rc2.d" />
+    <Compile Include="deimos\openssl\rc4.d" />
+    <Compile Include="deimos\openssl\ripemd.d" />
+    <Compile Include="deimos\openssl\rsa.d" />
+    <Compile Include="deimos\openssl\safestack.d" />
+    <Compile Include="deimos\openssl\seed.d" />
+    <Compile Include="deimos\openssl\sha.d" />
+    <Compile Include="deimos\openssl\ssl.d" />
+    <Compile Include="deimos\openssl\ssl2.d" />
+    <Compile Include="deimos\openssl\ssl23.d" />
+    <Compile Include="deimos\openssl\ssl3.d" />
+    <Compile Include="deimos\openssl\stack.d" />
+    <Compile Include="deimos\openssl\symhacks.d" />
+    <Compile Include="deimos\openssl\tls1.d" />
+    <Compile Include="deimos\openssl\ts.d" />
+    <Compile Include="deimos\openssl\txt_db.d" />
+    <Compile Include="deimos\openssl\ui.d" />
+    <Compile Include="deimos\openssl\ui_compat.d" />
+    <Compile Include="deimos\openssl\whrlpool.d" />
+    <Compile Include="deimos\openssl\x509.d" />
+    <Compile Include="deimos\openssl\x509_vfy.d" />
+    <Compile Include="deimos\openssl\x509v3.d" />
+  </ItemGroup>
+</Project>

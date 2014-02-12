@@ -1,0 +1,32 @@
+{
+    "app": {
+        "home": "Home",
+        "support": "Support",
+        "licence": "Licence",
+        "report_a_bug": "Report a bug",
+        "developed_by": "Developed by ",
+        "realtime": "Real-Time",
+        "overview": "Overview",
+        "players": "Players",
+        "sessions": "Sessions",
+        "maps": "Maps",
+        "entities": "Entities",
+        "settings": "Settings",
+        "users": "Users",
+        "documentation": "Documentation",
+        "change_password": "Change password",
+        "sign_out": "Sign out",
+        "welcome": "Welcome",
+        "active_players" : "Active Players",
+        "observers" : "Observers",
+        "auth" : "Auth",
+        "current" : "Current",
+        "recorded" : "Recorded",
+        "spawned" : "Spawned",
+        "blocks" : "Blocks",
+        "games" : "Games",
+        "server" : "Server",
+        "persistent" : "Persistent",
+        "admins" : "Admins"
+    }
+}

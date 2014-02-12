@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{433A0152-CDDA-4E77-9FB7-41C1C9612905}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>std.localization.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>std.localization.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>std.localization.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="std\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="std\localization.d" />
+  </ItemGroup>
+</Project>

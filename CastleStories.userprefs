@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Applications/MyApps/dmd8/install/import/object.di">
+    <Files>
+      <File FileName="CastleStories/main.d" Line="1" Column="1" />
+      <File FileName="CastleStories/OriginalServer/app.js" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/stubs.d" Line="1" Column="1" />
+      <File FileName="lib/socket.io/socket/io/package.d" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/CastleServer.d" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/Player.d" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/Config.d" Line="1" Column="1" />
+      <File FileName="CastleStories/vibe/extensions/slim.d" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/Entity.d" Line="1" Column="1" />
+      <File FileName="lib/arsd.jsvar/arsd/jsvar.d" Line="1" Column="1" />
+      <File FileName="CastleStories/CastleStory/Observer.d" Line="1" Column="1" />
+      <File FileName="CastleStories/EmptyTextFile.txt" Line="1" Column="1" />
+      <File FileName="lib/std.event/std/event.d" Line="1" Column="1" />
+      <File FileName="lib/std.serialization/std/serialization/json.d" Line="1" Column="1" />
+      <File FileName="lib/std.serialization/std/serialization/core.d" Line="16" Column="21" />
+      <File FileName="../../../../Applications/MyApps/dmd8/install/import/object.di" Line="480" Column="45" />
+      <File FileName="lib/vibe/vibe/core/connectionpool.d" Line="100" Column="64" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

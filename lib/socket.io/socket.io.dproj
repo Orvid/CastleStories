@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80E657A4-7F33-41A0-AA9E-6B1595AD05B0}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+    <DependentProjectIds>
+      <DependentProjectIds>
+        <String>{367E8788-6EEA-40B6-A9AF-FD203A334EFB}</String>
+        <String>{9CD78E92-5C12-4641-A75E-E096F1B97AE9}</String>
+        <String>{92D766D5-50E1-4F7F-B095-59237B2222D2}</String>
+        <String>{498D3D41-DE42-4C5B-B8F0-765296236736}</String>
+        <String>{26A605B4-AC2E-456E-9EC4-E0777267D85F}</String>
+        <String>{FD56267C-4B7F-4AB8-B384-4DF041D77133}</String>
+      </DependentProjectIds>
+    </DependentProjectIds>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>socket.io.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>true</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>StaticLibrary</Target>
+    <OutputName>socket.io.a</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>true</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>socket.io.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>true</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="socket\" />
+    <Folder Include="socket\io\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="socket\io\package.d" />
+  </ItemGroup>
+</Project>

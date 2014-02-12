@@ -1,0 +1,13 @@
+{
+    "port": 3000,
+    "debug_level": "info",
+    "nb_players_per_game": 2,
+    "nb_observers_per_game": 1,
+    "nb_games": 1,
+    "maps_path": "../maps",
+    "metrics_enabled": true,
+    "bonjour": false,
+	"latency": false,
+	"latency_delay": 50,
+    "protocol_version": 1
+}

@@ -1,0 +1,1344 @@
+﻿Starting up the Castle Story Multiplayer Server
+0 created (capacity: 1 players, 1 observers)
+add route GET /socket.io/1/
+add route GET /socket.io/1/:transportID/:sessionID
+add route GET /favicon.ico
+add route GET /css/bootstrap.min.css
+add route GET /css/style.css
+add route GET /img/bg_left_white.gif
+add route GET /img/bg_pattern.jpg
+add route GET /img/cc_active_nav.png
+add route GET /img/glyphicons-halflings.png
+add route GET /img/glyphicons-halflings-white-nav.png
+add route GET /img/glyphicons-halflings-white-shadow.png
+add route GET /js/socket.io/socket.io.min.js
+add route GET /js/socket.io/WebSocketMain.swf
+add route GET /js/socket.io/WebSocketMainInsecure.swf
+add route GET /js/bootstrap.min.js
+add route GET /js/date.format.js
+add route GET /js/highcharts.min.js
+add route GET /js/jquery.autosize-min.js
+add route GET /js/jquery-1.8.3.min.js
+add route GET /js/realtime.js
+add route GET /js/script.js
+add route GET /js/sortables.js
+add route GET /
+add route GET /auth/admins
+add route GET /auth/server
+add route GET /entities/blocks
+add route GET /entities/spawned
+add route GET /maps
+add route GET /realtime/overview
+add route GET /sessions/current
+add route GET /sessions/persistent
+add route GET /sessions/recorded
+add route GET /settings/games
+add route GET /settings/server
+add route GET /users/observers
+add route GET /users/players
+Creating new fiber...
+Listening for HTTP requests on ::1:8080
+Listening for HTTP requests on 127.0.0.1:8080
+Failed to listen on 192.168.4.121:8080
+Running event loop...
+FD: 11
+running task
+start task (fd 11).
+FD: -1
+127.0.0.1 - - 2014-Jan-17 17:30:03.522954Z "GET /realtime/overview HTTP/1.1" 200 5822 "-" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.643375Z "GET /css/bootstrap.min.css HTTP/1.1" 200 105939 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+FD: 12
+running task
+Creating new fiber...
+start task (fd 12).
+FD: -1
+FD: 13
+running task
+Creating new fiber...
+start task (fd 13).
+FD: -1
+FD: 14
+running task
+Creating new fiber...
+start task (fd 14).
+FD: -1
+FD: 15
+running task
+Creating new fiber...
+start task (fd 15).
+FD: -1
+FD: 16
+running task
+Creating new fiber...
+start task (fd 16).
+FD: -1
+127.0.0.1 - - 2014-Jan-17 17:30:03.654165Z "GET /js/realtime.js HTTP/1.1" 200 15671 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.652934Z "GET /js/highcharts.min.js HTTP/1.1" 200 141570 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.654936Z "GET /css/style.css HTTP/1.1" 200 55278 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.669362Z "GET /js/highcharts.min.js HTTP/1.1" 200 141570 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.680978Z "GET /js/bootstrap.min.js HTTP/1.1" 200 28538 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.684078Z "GET /js/script.js HTTP/1.1" 200 369 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.685402Z "GET /js/date.format.js HTTP/1.1" 200 4011 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.685093Z "GET /js/socket.io/socket.io.min.js HTTP/1.1" 200 44814 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:03.700115Z "GET /js/jquery-1.8.3.min.js HTTP/1.1" 200 93637 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+Socket event on fd 11: 17 (7FCAA2405FC8 vs 7FCAA2405FC8)
+Connection was closed (fd 11).
+task out (fd 11).
+task finished.
+127.0.0.1 - - 2014-Jan-17 17:30:03.85431Z "GET /favicon.ico HTTP/1.1" 200 1406 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:04.104887Z "GET /img/glyphicons-halflings.png HTTP/1.1" 200 12799 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:04.200767Z "GET /img/glyphicons-halflings-white-nav.png HTTP/1.1" 200 28364 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:04.204827Z "GET /img/glyphicons-halflings-white-shadow.png HTTP/1.1" 200 27257 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:04.206886Z "GET /img/cc_active_nav.png HTTP/1.1" 200 432 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 1:::
+127.0.0.1 - - 2014-Jan-17 17:30:04.434556Z "GET /socket.io/1/?t=1389979804430 HTTP/1.1" 200 46 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+127.0.0.1 - - 2014-Jan-17 17:30:04.818828Z "GET /img/bg_left_white.gif HTTP/1.1" 200 105 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+FD: 11
+running task
+start task (fd 11).
+FD: -1
+Creating new fiber...
+Creating new fiber...
+Read frame: text true
+Handling a message: 1::/analytics:
+127.0.0.1 connected to /analytics
+Analyst.init
+Analytics.RTConnect with analyst CastleStory.Analyst.Analyst
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 1::/analytics:
+Read frame: close true
+Got closing frame (false)
+Terminating connection (true)
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 1:::
+127.0.0.1 - - 2014-Jan-17 17:30:10.979337Z "GET /socket.io/1/?t=1389979810976 HTTP/1.1" 200 46 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+FD: 11
+running task
+start task (fd 11).
+FD: -1
+Creating new fiber...
+Read frame: text true
+Handling a message: 1::/analytics:
+127.0.0.1 connected to /analytics
+Analyst.init
+Analytics.RTConnect with analyst CastleStory.Analyst.Analyst
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 1::/analytics:
+Read frame: close true
+Got closing frame (false)
+Terminating connection (true)
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 1:::
+127.0.0.1 - - 2014-Jan-17 17:30:16.637809Z "GET /socket.io/1/?t=1389979816633 HTTP/1.1" 200 46 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+FD: 11
+running task
+start task (fd 11).
+FD: -1
+Creating new fiber...
+Read frame: text true
+Handling a message: 1::/analytics:
+127.0.0.1 connected to /analytics
+Analyst.init
+Analytics.RTConnect with analyst CastleStory.Analyst.Analyst
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 1::/analytics:
+Read frame: close true
+Got closing frame (false)
+Terminating connection (true)
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 1:::
+127.0.0.1 - - 2014-Jan-17 17:30:22.286197Z "GET /socket.io/1/?t=1389979822281 HTTP/1.1" 200 46 "http://localhost:8080/realtime/overview" "Opera/9.80 (Macintosh; Intel Mac OS X 10.8.5) Presto/2.12.388 Version/12.16"
+FD: 11
+running task
+start task (fd 11).
+FD: -1
+Creating new fiber...
+Read frame: text true
+Handling a message: 1::/analytics:
+127.0.0.1 connected to /analytics
+Analyst.init
+Analytics.RTConnect with analyst CastleStory.Analyst.Analyst
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 1::/analytics:
+FD: 17
+running task
+Creating new fiber...
+start task (fd 17).
+FD: -1
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 1:::
+127.0.0.1 - - 2014-Jan-17 17:30:25.311539Z "GET /socket.io/1/ HTTP/1.1" 200 46 "-" "UnityPlayer/4.2.0f4 (http://unity3d.com)"
+Socket event on fd 17: 17 (7FCAA241C318 vs 7FCAA241C318)
+Connection was closed (fd 17).
+task out (fd 17).
+task finished.
+FD: 17
+running task
+start task (fd 17).
+FD: -1
+Creating new fiber...
+Creating new fiber...
+Read frame: text true
+CastleServer.updatePopulation() totalPlayers: 0
+Player unique id: 5870
+Handling a message: 1::/play:
+127.0.0.1 connected to /play
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 1::/play:
+CastleServer.PlayerConnect called with player {"network_id":5870,"belongs_to":5870}
+Handling a message: 4:1+:/play:[0,0.029873985797166824,0.029873985797166824,"Orvid"]
+Broadcasting message [0,0.02987398579716682,0.02987398579716682,"Orvid"]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 4:::[1,0,5870,"Orvid"]
+Orvid has joined 0 using unique id 5870
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 4:::[17,1,1]
+Pushing a list of 0 entities to player: Orvid
+We've reached the maximum number of players in game: 1
+Read frame: text true
+Player.onMessage: msg: [0,0.02987398579716682,0.02987398579716682,"Orvid"]
+Player.onMessage HELLO
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[0,0.02987398579716682,0.02987398579716682,"Orvid"],"from":"Orvid","action":"Hello","timestamp":"029"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[0,0.02987398579716682,0.02987398579716682,"Orvid"],"from":"Orvid","action":"Hello","timestamp":"029"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[0,0.02987398579716682,0.02987398579716682,"Orvid"],"from":"Orvid","action":"Hello","timestamp":"029"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[0,0.02987398579716682,0.02987398579716682,"Orvid"],"from":"Orvid","action":"Hello","timestamp":"029"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[0,0.02987398579716682,0.02987398579716682,"Orvid"],"from":"Orvid","action":"Hello","timestamp":"029"}]}
+Socket disconnected!
+ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw Socket sending finished.
+Socket disconnected!
+23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5 Socket sending finished.
+Socket disconnected!
+eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr Socket sending finished.
+Read frame: text true
+Handling a message: 4:2+:/play:[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets/Resources/Prefabs/ObjetsDynamiques/CristalNouveau/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets/Resources/Prefabs/ObjetsDynamiques/CristalNouveau/Crystal 2.prefab\",\"network_id\":0}]}"]
+Broadcasting message [2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"]
+Player.onMessage: msg: [2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"]
+Player.onMessage SPAWN type: GENERIC object: {"network_id":5871,"$type":"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab","components":[{"$type":"ObstacleGenerique, Assembly-UnityScript","index":137842137},{"$type":"ContenantComponent, Assembly-UnityScript"},{"$type":"SiphonDeRessource, Assembly-UnityScript"},{"$type":"Gradateur, Assembly-UnityScript"},{"$type":"EmetteurDeLucioles, Assembly-UnityScript"},{"$type":"Vie, Assembly-UnityScript"},{"$type":"Magie, Assembly-UnityScript"},{"$type":"VoxelInvincibles, Assembly-UnityScript"},{"$type":"PrendreAme, Assembly-UnityScript"},{"$type":"SpawnerCristal, Assembly-UnityScript"},{"$type":"ObjetSelectionnable, Assembly-UnityScript"},{"$type":"ObjetImportant, Assembly-UnityScript"},{"$type":"RendererPv, Assembly-UnityScript"},{"$type":"RondDeTerre, Assembly-UnityScript"},{"prefab":"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab","network_id":0,"$type":"PrefabReseau, Assembly-UnityScript"}],"belongs_to":5870}
+Player.onMessage SPAWN returning network_id: 5871
+Sending acknowledgement for msg: 6:::2+[5871]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::2+[5871]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"],"from":"Orvid","action":"Spawn","timestamp":"030"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"],"from":"Orvid","action":"Spawn","timestamp":"030"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"],"from":"Orvid","action":"Spawn","timestamp":"030"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"],"from":"Orvid","action":"Spawn","timestamp":"030"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.43710433319211006,0.43710433319211006,"{\"$type\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab, Unity.Prefab\",\"components\":[{\"$type\":\"ObstacleGenerique, Assembly-UnityScript\",\"index\":137842137},{\"$type\":\"ContenantComponent, Assembly-UnityScript\"},{\"$type\":\"SiphonDeRessource, Assembly-UnityScript\"},{\"$type\":\"Gradateur, Assembly-UnityScript\"},{\"$type\":\"EmetteurDeLucioles, Assembly-UnityScript\"},{\"$type\":\"Vie, Assembly-UnityScript\"},{\"$type\":\"Magie, Assembly-UnityScript\"},{\"$type\":\"VoxelInvincibles, Assembly-UnityScript\"},{\"$type\":\"PrendreAme, Assembly-UnityScript\"},{\"$type\":\"SpawnerCristal, Assembly-UnityScript\"},{\"$type\":\"ObjetSelectionnable, Assembly-UnityScript\"},{\"$type\":\"ObjetImportant, Assembly-UnityScript\"},{\"$type\":\"RendererPv, Assembly-UnityScript\"},{\"$type\":\"RondDeTerre, Assembly-UnityScript\"},{\"$type\":\"PrefabReseau, Assembly-UnityScript\",\"prefab\":\"Assets\/Resources\/Prefabs\/ObjetsDynamiques\/CristalNouveau\/Crystal 2.prefab\",\"network_id\":0}]}"],"from":"Orvid","action":"Spawn","timestamp":"030"}]}
+Read frame: text true
+Player.onMessage: msg: [2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"]
+Player.onMessage SPAWN type: GENERIC object: {"network_id":5872,"dir":1,"$type":"MineMagique, Assembly-UnityScript","index":138874308,"belongs_to":5870,"groupeVoulu":0}
+Player.onMessage SPAWN returning network_id: 5872Handling a message: 4:3+:/play:[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"]
+Broadcasting message [2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"]
+
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}
+Sending acknowledgement for msg: 6:::3+[5872]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::3+[5872]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"MineMagique, Assembly-UnityScript\",\"index\":138874308,\"dir\":1,\"groupeVoulu\":0,\"network_id\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:4+:/play:[21.0,0.77043767645955086,0.77043767645955086,138873284.0,138873284.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1]
+Player.onMessage BLOC index: 138873284 paire: 138873284 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873284,138873284,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:5+:/play:[21.0,0.77043767645955086,0.77043767645955086,139921860.0,139921860.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1]
+Player.onMessage BLOC index: 139921860 paire: 139921860 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921860,139921860,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:6+:/play:[21.0,0.77043767645955086,0.77043767645955086,140970436.0,140970436.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1]
+Player.onMessage BLOC index: 140970436 paire: 140970436 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970436,140970436,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:7+:/play:[21.0,0.77043767645955086,0.77043767645955086,142019012.0,142019012.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1]
+Player.onMessage BLOC index: 142019012 paire: 142019012 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019012,142019012,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:8+:/play:[21.0,0.77043767645955086,0.77043767645955086,138872260.0,138872260.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1]
+Player.onMessage BLOC index: 138872260 paire: 138872260 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872260,138872260,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:9+:/play:[21.0,0.77043767645955086,0.77043767645955086,139920836.0,139920836.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:10+:/play:[21.0,0.77043767645955086,0.77043767645955086,140969412.0,140969412.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:11+:/play:[21.0,0.77043767645955086,0.77043767645955086,142017988.0,142017988.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1]
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1]
+Player.onMessage BLOC index: 139920836 paire: 139920836 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920836,139920836,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1]
+Player.onMessage BLOC index: 140969412 paire: 140969412 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969412,140969412,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1]
+Player.onMessage BLOC index: 142017988 paire: 142017988 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017988,142017988,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:12+:/play:[21.0,0.77043767645955086,0.77043767645955086,138871236.0,138871236.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1]
+Player.onMessage BLOC index: 138871236 paire: 138871236 type: 8 variante: 0 niveaux: -1
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:13+:/play:[21.0,0.77043767645955086,0.77043767645955086,139919812.0,139919812.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871236,138871236,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1]
+Player.onMessage BLOC index: 139919812 paire: 139919812 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919812,139919812,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Handling a message: 4:14+:/play:[21.0,0.77043767645955086,0.77043767645955086,140968388.0,140968388.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:15+:/play:[21.0,0.77043767645955086,0.77043767645955086,142016964.0,142016964.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1]
+Player.onMessage BLOC index: 140968388 paire: 140968388 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968388,140968388,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1]
+Player.onMessage BLOC index: 142016964 paire: 142016964 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016964,142016964,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:16+:/play:[21.0,0.77043767645955086,0.77043767645955086,138873281.0,138873281.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:17+:/play:[21.0,0.77043767645955086,0.77043767645955086,139921857.0,139921857.0,8.0,0.0,-1.0]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1]
+Player.onMessage BLOC index: 138873281 paire: 138873281 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138873281,138873281,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1]
+Player.onMessage BLOC index: 139921857 paire: 139921857 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139921857,139921857,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:18+:/play:[21.0,0.77043767645955086,0.77043767645955086,140970433.0,140970433.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:19+:/play:[21.0,0.77043767645955086,0.77043767645955086,142019009.0,142019009.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:20+:/play:[21.0,0.77043767645955086,0.77043767645955086,138872257.0,138872257.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1]
+Player.onMessage BLOC index: 140970433 paire: 140970433 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140970433,140970433,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1]
+Player.onMessage BLOC index: 142019009 paire: 142019009 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019009,142019009,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1]
+Player.onMessage BLOC index: 138872257 paire: 138872257 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1]
+Player.onMessage BLOC index: 139920833 paire: 139920833 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1]
+Player.onMessage BLOC index: 140969409 paire: 140969409 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138872257,138872257,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:21+:/play:[21.0,0.77043767645955086,0.77043767645955086,139920833.0,139920833.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139920833,139920833,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:22+:/play:[21.0,0.77043767645955086,0.77043767645955086,140969409.0,140969409.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140969409,140969409,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:23+:/play:[21.0,0.77043767645955086,0.77043767645955086,142017985.0,142017985.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1]
+Player.onMessage BLOC index: 142017985 paire: 142017985 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017985,142017985,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:24+:/play:[21.0,0.77043767645955086,0.77043767645955086,138871233.0,138871233.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1]
+Player.onMessage BLOC index: 138871233 paire: 138871233 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1]
+Player.onMessage BLOC index: 139919809 paire: 139919809 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1]
+Player.onMessage BLOC index: 140968385 paire: 140968385 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1]
+Player.onMessage BLOC index: 142016961 paire: 142016961 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1]
+Player.onMessage BLOC index: 142019011 paire: 142019011 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871233,138871233,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:25+:/play:[21.0,0.77043767645955086,0.77043767645955086,139919809.0,139919809.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919809,139919809,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:26+:/play:[21.0,0.77043767645955086,0.77043767645955086,140968385.0,140968385.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968385,140968385,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:27+:/play:[21.0,0.77043767645955086,0.77043767645955086,142016961.0,142016961.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016961,142016961,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:28+:/play:[21.0,0.77043767645955086,0.77043767645955086,142019011.0,142019011.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019011,142019011,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:29+:/play:[21.0,0.77043767645955086,0.77043767645955086,142017987.0,142017987.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1]
+Player.onMessage BLOC index: 142017987 paire: 142017987 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1]
+Player.onMessage BLOC index: 142016963 paire: 142016963 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017987,142017987,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:30+:/play:[21.0,0.77043767645955086,0.77043767645955086,142016963.0,142016963.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016963,142016963,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:31+:/play:[21.0,0.77043767645955086,0.77043767645955086,142019010.0,142019010.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1]
+Player.onMessage BLOC index: 142019010 paire: 142019010 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142019010,142019010,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1]
+Player.onMessage BLOC index: 142017986 paire: 142017986 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Handling a message: 4:32+:/play:[21.0,0.77043767645955086,0.77043767645955086,142017986.0,142017986.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142017986,142017986,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:33+:/play:[21.0,0.77043767645955086,0.77043767645955086,142016962.0,142016962.0,8.0,0.0,-1.0]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1]
+Player.onMessage BLOC index: 142016962 paire: 142016962 type: 8 variante: 0 niveaux: -1
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142016962,142016962,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:34+:/play:[21.0,0.77043767645955086,0.77043767645955086,138871235.0,138871235.0,8.0,0.0,-1.0]
+Read frame: text true
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1]
+Player.onMessage BLOC index: 138871235 paire: 138871235 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871235,138871235,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Handling a message: 4:35+:/play:[21.0,0.77043767645955086,0.77043767645955086,139919811.0,139919811.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1]
+Player.onMessage BLOC index: 139919811 paire: 139919811 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919811,139919811,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:36+:/play:[21.0,0.77043767645955086,0.77043767645955086,140968387.0,140968387.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1]
+Player.onMessage BLOC index: 140968387 paire: 140968387 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968387,140968387,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Handling a message: 4:37+:/play:[21.0,0.77043767645955086,0.77043767645955086,138871234.0,138871234.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1]
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1]
+Player.onMessage BLOC index: 138871234 paire: 138871234 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138871234,138871234,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1]
+Player.onMessage BLOC index: 139919810 paire: 139919810 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1]
+Player.onMessage BLOC index: 140968386 paire: 140968386 type: 8 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true]
+Player.onMessage DEBLOC pos: [451,132,450] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true]
+Player.onMessage DEBLOC pos: [450,132,450] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true]
+Player.onMessage DEBLOC pos: [451,133,450] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true]
+Player.onMessage DEBLOC pos: [450,133,450] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true]
+Player.onMessage DEBLOC pos: [451,134,450] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true]
+Player.onMessage DEBLOC pos: [450,134,450] real: false gravity: true
+Analytics.emitHandling a message: 4:38+:/play:[21.0,0.77043767645955086,0.77043767645955086,139919810.0,139919810.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139919810,139919810,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.770437676() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true]
+Player.onMessage DEBLOC pos: [451,132,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true]
+Player.onMessage DEBLOC pos: [450,132,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true]
+Player.onMessage DEBLOC pos: [451,133,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true]
+Player.onMessage DEBLOC pos: [450,133,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true]
+Player.onMessage DEBLOC pos: [451,134,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true]
+Player.onMessage DEBLOC pos: [450,134,449] real: false gravity: true
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1]
+Player.onMessage BLOC index: 138874308 paire: 139922884 type: 28 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1]
+Player.onMessage BLOC index: 139922884 paire: 138874308 type: 29 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1]
+Player.onMessage BLOC index: 140971460 paire: 142020036 type: 28 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1]
+Player.onMessage BLOC index: 142020036 paire: 140971460 type: 29 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1]
+Player.onMessage BLOC index: 140971457 paire: 142020033 type: 28 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1]
+Player.onMessage BLOC index: 142020033 paire: 140971457 type: 29 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1]
+Player.onMessage BLOC index: 138874305 paire: 139922881 type: 28 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1]
+Player.onMessage BLOC index: 139922881 paire: 138874305 type: 29 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1]
+Player.onMessage BLOC index: 142020035 paire: 142020034 type: 22 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1]
+Player.onMessage BLOC index: 142020034 paire: 142020035 type: 23 variante: 0 niveaux: -1
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"]
+Player.onMessage SPAWN type: GENERIC object: {"network_id":5873,"dir":0,"$type":"ForetMagique, Assembly-UnityScript","index":138866132,"belongs_to":5870,"groupeVoulu":0}
+Player.onMessage SPAWN returning network_id: 5873
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}
+Read frame: text true
+Player.onMessage: msg: [12,2.04659597948193550,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,2.04659597948193550,0],"from":"Orvid","action":"Time","timestamp":"032"}
+Read frame: text true
+Player.onMessage: msg: [12,34.00510044209659100,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,34.00510044209659100,0],"from":"Orvid","action":"Time","timestamp":"034"}
+Read frame: text true
+Player.onMessage: msg: [12,36.02088305400684500,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,36.02088305400684500,0],"from":"Orvid","action":"Time","timestamp":"036"}
+Read frame: text true
+Player.onMessage: msg: [12,38.01808323051469100,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,38.01808323051469100,0],"from":"Orvid","action":"Time","timestamp":"038"}
+45955086,0.77043767645955086,139919810,139919810,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:39+:/play:[21.0,0.77043767645955086,0.77043767645955086,140968386.0,140968386.0,8.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140968386,140968386,8,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:40+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,132.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:41+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,132.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:42+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,133.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:43+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,133.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:44+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,134.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:45+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,134.0,450.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,450],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:46+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,132.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:47+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,132.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,132,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:48+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,133.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:49+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,133.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,133,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:50+:/play:[22,0.77043767645955086,0.77043767645955086,[451.0,134.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[451,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:51+:/play:[22,0.77043767645955086,0.77043767645955086,[450.0,134.0,449.0],false,true]
+Broadcasting message [22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[22,0.77043767645955086,0.77043767645955086,[450,134,449],false,true],"from":"Orvid","action":"Debloc","timestamp":"031"}]}
+Handling a message: 4:52+:/play:[21.0,0.77043767645955086,0.77043767645955086,138874308.0,139922884.0,28.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874308,139922884,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:53+:/play:[21.0,0.77043767645955086,0.77043767645955086,139922884.0,138874308.0,29.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922884,138874308,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:54+:/play:[21.0,0.77043767645955086,0.77043767645955086,140971460.0,142020036.0,28.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971460,142020036,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:55+:/play:[21.0,0.77043767645955086,0.77043767645955086,142020036.0,140971460.0,29.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020036,140971460,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:56+:/play:[21.0,0.77043767645955086,0.77043767645955086,140971457.0,142020033.0,28.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,140971457,142020033,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:57+:/play:[21.0,0.77043767645955086,0.77043767645955086,142020033.0,140971457.0,29.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020033,140971457,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:58+:/play:[21.0,0.77043767645955086,0.77043767645955086,138874305.0,139922881.0,28.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,138874305,139922881,28,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:59+:/play:[21.0,0.77043767645955086,0.77043767645955086,139922881.0,138874305.0,29.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,139922881,138874305,29,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:60+:/play:[21.0,0.77043767645955086,0.77043767645955086,142020035.0,142020034.0,22.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020035,142020034,22,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:61+:/play:[21.0,0.77043767645955086,0.77043767645955086,142020034.0,142020035.0,23.0,0.0,-1.0]
+Broadcasting message [21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[21,0.77043767645955086,0.77043767645955086,142020034,142020035,23,0,-1],"from":"Orvid","action":"Bloc","timestamp":"031"}]}
+Handling a message: 4:62+:/play:[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"]
+Broadcasting message [2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"]
+Sending acknowledgement for msg: 6:::62+[5873]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::62+[5873]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[2,0.77043767645955086,0.77043767645955086,"{\"$type\":\"ForetMagique, Assembly-UnityScript\",\"index\":138866132,\"dir\":0,\"network_id\":0,\"groupeVoulu\":0}"],"from":"Orvid","action":"Spawn","timestamp":"031"}]}
+Handling a message: 4:63+:/play:[12.0,2.0465959794819355,0.0]
+Broadcasting message [12,2.04659597948193550,0]
+Sending acknowledgement for msg: 6:::63+[2.04659597948193550,32]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::63+[2.04659597948193550,32]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,2.04659597948193550,0],"from":"Orvid","action":"Time","timestamp":"032"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,2.04659597948193550,0],"from":"Orvid","action":"Time","timestamp":"032"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,2.04659597948193550,0],"from":"Orvid","action":"Time","timestamp":"032"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,2.04659597948193550,0],"from":"Orvid","action":"Time","timestamp":"032"}]}
+Handling a message: 4:64+:/play:[12.0,34.005100442096591,0.0]
+Broadcasting message [12,34.00510044209659100,0]
+Sending acknowledgement for msg: 6:::64+[34.00510044209659100,34]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::64+[34.00510044209659100,34]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,34.00510044209659100,0],"from":"Orvid","action":"Time","timestamp":"034"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,34.00510044209659100,0],"from":"Orvid","action":"Time","timestamp":"034"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,34.00510044209659100,0],"from":"Orvid","action":"Time","timestamp":"034"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,34.00510044209659100,0],"from":"Orvid","action":"Time","timestamp":"034"}]}
+Handling a message: 4:65+:/play:[12.0,36.020883054006845,0.0]
+Broadcasting message [12,36.02088305400684500,0]
+Sending acknowledgement for msg: 6:::65+[36.02088305400684476,36]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::65+[36.02088305400684476,36]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,36.02088305400684500,0],"from":"Orvid","action":"Time","timestamp":"036"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,36.02088305400684500,0],"from":"Orvid","action":"Time","timestamp":"036"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,36.02088305400684500,0],"from":"Orvid","action":"Time","timestamp":"036"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,36.02088305400684500,0],"from":"Orvid","action":"Time","timestamp":"036"}]}
+Handling a message: 4:66+:/play:[12.0,38.018083230514691,0.0]
+Broadcasting message [12,38.01808323051469100,0]
+Sending acknowledgement for msg: 6:::66+[38.01808323051469074,38]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::66+[38.01808323051469074,38]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,38.01808323051469100,0],"from":"Orvid","action":"Time","timestamp":"038"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,38.01808323051469100,0],"from":"Orvid","action":"Time","timestamp":"038"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,38.01808323051469100,0],"from":"Orvid","action":"Time","timestamp":"038"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,38.01808323051469100,0],"from":"Orvid","action":"Time","timestamp":"038"}]}
+Handling a message: 4:67+:/play:[12.0,40.0010263615695,0.0]
+Broadcasting message [12,40.00102636156950000,0]
+Sending acknowledgement for msg: 6:::67+[40.00102636156950098,40]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::67+[40.00102636156950098,40]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,40.00102636156950000,0],"from":"Orvid","action":"Time","timestamp":"040"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,40.00102636156950000,0],"from":"Orvid","action":"Time","timestamp":"040"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,40.00102636156950000,0],"from":"Orvid","action":"Time","timestamp":"040"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,40.00102636156950000,0],"from":"Orvid","action":"Time","timestamp":"040"}]}
+Read frame: text true
+Player.onMessage: msg: [12,40.00102636156950000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,40.00102636156950000,0],"from":"Orvid","action":"Time","timestamp":"040"}
+Read frame: text true
+Player.onMessage: msg: [12,42.00498137049820000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,42.00498137049820000,0],"from":"Orvid","action":"Time","timestamp":"042"}
+Handling a message: 4:68+:/play:[12.0,42.0049813704982,0.0]
+Broadcasting message [12,42.00498137049820000,0]
+Sending acknowledgement for msg: 6:::68+[42.00498137049820002,42]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::68+[42.00498137049820002,42]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,42.00498137049820000,0],"from":"Orvid","action":"Time","timestamp":"042"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,42.00498137049820000,0],"from":"Orvid","action":"Time","timestamp":"042"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,42.00498137049820000,0],"from":"Orvid","action":"Time","timestamp":"042"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,42.00498137049820000,0],"from":"Orvid","action":"Time","timestamp":"042"}]}
+Read frame: text true
+Handling a message: 4:69+:/play:[12.0,44.010193017581543,0.0]
+Player.onMessage: msg: [12,44.01019301758154300,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,44.01019301758154300,0],"from":"Orvid","action":"Time","timestamp":"044"}
+Broadcasting message [12,44.01019301758154300,0]
+Sending acknowledgement for msg: 6:::69+[44.01019301758154256,44]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::69+[44.01019301758154256,44]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,44.01019301758154300,0],"from":"Orvid","action":"Time","timestamp":"044"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,44.01019301758154300,0],"from":"Orvid","action":"Time","timestamp":"044"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,44.01019301758154300,0],"from":"Orvid","action":"Time","timestamp":"044"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,44.01019301758154300,0],"from":"Orvid","action":"Time","timestamp":"044"}]}
+Read frame: text true
+Player.onMessage: msg: [12,46.02235805999421800,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,46.02235805999421800,0],"from":"Orvid","action":"Time","timestamp":"046"}
+Handling a message: 4:70+:/play:[12.0,46.022358059994218,0.0]
+Broadcasting message [12,46.02235805999421800,0]
+Sending acknowledgement for msg: 6:::70+[46.02235805999421814,46]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::70+[46.02235805999421814,46]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,46.02235805999421800,0],"from":"Orvid","action":"Time","timestamp":"046"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,46.02235805999421800,0],"from":"Orvid","action":"Time","timestamp":"046"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,46.02235805999421800,0],"from":"Orvid","action":"Time","timestamp":"046"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,46.02235805999421800,0],"from":"Orvid","action":"Time","timestamp":"046"}]}
+Read frame: text true
+Handling a message: 4:71+:/play:[12.0,48.050588071341252,0.0]
+Broadcasting message [12,48.05058807134125200,0]
+Player.onMessage: msg: [12,48.05058807134125200,0]
+Sending acknowledgement for msg: 6:::71+[48.05058807134125232,48]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::71+[48.05058807134125232,48]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,48.05058807134125200,0],"from":"Orvid","action":"Time","timestamp":"048"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,48.05058807134125200,0],"from":"Orvid","action":"Time","timestamp":"048"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,48.05058807134125200,0],"from":"Orvid","action":"Time","timestamp":"048"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,48.05058807134125200,0],"from":"Orvid","action":"Time","timestamp":"048"}]}
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,48.05058807134125200,0],"from":"Orvid","action":"Time","timestamp":"048"}
+Read frame: text true
+Handling a message: 4:72+:/play:[12.0,50.038103033997132,0.0]
+Broadcasting message [12,50.03810303399713200,0]
+Player.onMessage: msg: [12,50.03810303399713200,0]
+Sending acknowledgement for msg: 6:::72+[50.03810303399713177,50]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::72+[50.03810303399713177,50]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,50.03810303399713200,0],"from":"Orvid","action":"Time","timestamp":"050"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,50.03810303399713200,0],"from":"Orvid","action":"Time","timestamp":"050"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,50.03810303399713200,0],"from":"Orvid","action":"Time","timestamp":"050"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,50.03810303399713200,0],"from":"Orvid","action":"Time","timestamp":"050"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,50.03810303399713200,0],"from":"Orvid","action":"Time","timestamp":"050"}]}
+Read frame: text true
+Handling a message: 4:73+:/play:[12.0,52.033896079709223,0.0]
+Broadcasting message [12,52.03389607970922301,0]
+Player.onMessage: msg: [12,52.03389607970922301,0]
+Sending acknowledgement for msg: 6:::73+[52.03389607970922270,52]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::73+[52.03389607970922270,52]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,52.03389607970922301,0],"from":"Orvid","action":"Time","timestamp":"052"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,52.03389607970922301,0],"from":"Orvid","action":"Time","timestamp":"052"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,52.03389607970922301,0],"from":"Orvid","action":"Time","timestamp":"052"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,52.03389607970922301,0],"from":"Orvid","action":"Time","timestamp":"052"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,52.03389607970922301,0],"from":"Orvid","action":"Time","timestamp":"052"}]}
+Read frame: text true
+Player.onMessage: msg: [12,54.03202902123597100,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,54.03202902123597100,0],"from":"Orvid","action":"Time","timestamp":"054"}
+Handling a message: 4:74+:/play:[12.0,54.032029021235971,0.0]
+Broadcasting message [12,54.03202902123597100,0]
+Sending acknowledgement for msg: 6:::74+[54.03202902123597084,54]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::74+[54.03202902123597084,54]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,54.03202902123597100,0],"from":"Orvid","action":"Time","timestamp":"054"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,54.03202902123597100,0],"from":"Orvid","action":"Time","timestamp":"054"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,54.03202902123597100,0],"from":"Orvid","action":"Time","timestamp":"054"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,54.03202902123597100,0],"from":"Orvid","action":"Time","timestamp":"054"}]}
+Read frame: text true
+Player.onMessage: msg: [12,56.00603501956189200,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,56.00603501956189200,0],"from":"Orvid","action":"Time","timestamp":"056"}
+Handling a message: 4:75+:/play:[12.0,56.006035019561892,0.0]
+Broadcasting message [12,56.00603501956189200,0]
+Sending acknowledgement for msg: 6:::75+[56.00603501956189234,56]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::75+[56.00603501956189234,56]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,56.00603501956189200,0],"from":"Orvid","action":"Time","timestamp":"056"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,56.00603501956189200,0],"from":"Orvid","action":"Time","timestamp":"056"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,56.00603501956189200,0],"from":"Orvid","action":"Time","timestamp":"056"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,56.00603501956189200,0],"from":"Orvid","action":"Time","timestamp":"056"}]}
+Read frame: text true
+Player.onMessage: msg: [12,58.00866110115410000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,58.00866110115410000,0],"from":"Orvid","action":"Time","timestamp":"058"}
+Handling a message: 4:76+:/play:[12.0,58.0086611011541,0.0]
+Broadcasting message [12,58.00866110115410000,0]
+Sending acknowledgement for msg: 6:::76+[58.00866110115409668,58]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::76+[58.00866110115409668,58]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,58.00866110115410000,0],"from":"Orvid","action":"Time","timestamp":"058"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,58.00866110115410000,0],"from":"Orvid","action":"Time","timestamp":"058"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,58.00866110115410000,0],"from":"Orvid","action":"Time","timestamp":"058"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,58.00866110115410000,0],"from":"Orvid","action":"Time","timestamp":"058"}]}
+Read frame: text true
+Player.onMessage: msg: [12,60.00296909566022000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,60.00296909566022000,0],"from":"Orvid","action":"Time","timestamp":"060"}
+Handling a message: 4:77+:/play:[12.0,60.00296909566022,0.0]
+Broadcasting message [12,60.00296909566022000,0]
+Sending acknowledgement for msg: 6:::77+[60.00296909566021952,60]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::77+[60.00296909566021952,60]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,60.00296909566022000,0],"from":"Orvid","action":"Time","timestamp":"060"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,60.00296909566022000,0],"from":"Orvid","action":"Time","timestamp":"060"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,60.00296909566022000,0],"from":"Orvid","action":"Time","timestamp":"060"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,60.00296909566022000,0],"from":"Orvid","action":"Time","timestamp":"060"}]}
+Read frame: text true
+Handling a message: 4:78+:/play:[12.0,62.048329065161404,0.0]
+Broadcasting message [12,62.04832906516140400,0]
+Player.onMessage: msg: [12,62.04832906516140400,0]
+Sending acknowledgement for msg: 6:::78+[62.04832906516140412,62]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::78+[62.04832906516140412,62]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,62.04832906516140400,0],"from":"Orvid","action":"Time","timestamp":"062"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,62.04832906516140400,0],"from":"Orvid","action":"Time","timestamp":"062"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,62.04832906516140400,0],"from":"Orvid","action":"Time","timestamp":"062"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,62.04832906516140400,0],"from":"Orvid","action":"Time","timestamp":"062"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,62.04832906516140400,0],"from":"Orvid","action":"Time","timestamp":"062"}]}
+Read frame: text true
+Handling a message: 4:79+:/play:[12.0,64.019939013959288,0.0]
+Broadcasting message [12,64.01993901395928800,0]
+Player.onMessage: msg: [12,64.01993901395928800,0]
+Sending acknowledgement for msg: 6:::79+[64.01993901395928788,64]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::79+[64.01993901395928788,64]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,64.01993901395928800,0],"from":"Orvid","action":"Time","timestamp":"064"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,64.01993901395928800,0],"from":"Orvid","action":"Time","timestamp":"064"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,64.01993901395928800,0],"from":"Orvid","action":"Time","timestamp":"064"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,64.01993901395928800,0],"from":"Orvid","action":"Time","timestamp":"064"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,64.01993901395928800,0],"from":"Orvid","action":"Time","timestamp":"064"}]}
+Read frame: text true
+Player.onMessage: msg: [12,66.02781910622138600,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,66.02781910622138600,0],"from":"Orvid","action":"Time","timestamp":"066"}
+Handling a message: 4:80+:/play:[12.0,66.027819106221386,0.0]
+Broadcasting message [12,66.02781910622138600,0]
+Sending acknowledgement for msg: 6:::80+[66.02781910622138639,66]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::80+[66.02781910622138639,66]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,66.02781910622138600,0],"from":"Orvid","action":"Time","timestamp":"066"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,66.02781910622138600,0],"from":"Orvid","action":"Time","timestamp":"066"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,66.02781910622138600,0],"from":"Orvid","action":"Time","timestamp":"066"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,66.02781910622138600,0],"from":"Orvid","action":"Time","timestamp":"066"}]}
+Read frame: text true
+Player.onMessage: msg: [12,68.03826303267385400,0]
+Handling a message: 4:81+:/play:[12.0,68.038263032673854,0.0]
+Broadcasting message [12,68.03826303267385400,0]
+Sending acknowledgement for msg: 6:::81+[68.03826303267385356,68]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::81+[68.03826303267385356,68]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,68.03826303267385400,0],"from":"Orvid","action":"Time","timestamp":"068"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,68.03826303267385400,0],"from":"Orvid","action":"Time","timestamp":"068"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,68.03826303267385400,0],"from":"Orvid","action":"Time","timestamp":"068"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,68.03826303267385400,0],"from":"Orvid","action":"Time","timestamp":"068"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,68.03826303267385400,0],"from":"Orvid","action":"Time","timestamp":"068"}]}
+Read frame: text true
+Player.onMessage: msg: [12,70.04275608913394500,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,70.04275608913394500,0],"from":"Orvid","action":"Time","timestamp":"070"}
+Handling a message: 4:82+:/play:[12.0,70.042756089133945,0.0]
+Broadcasting message [12,70.04275608913394500,0]
+Sending acknowledgement for msg: 6:::82+[70.04275608913394535,70]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::82+[70.04275608913394535,70]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,70.04275608913394500,0],"from":"Orvid","action":"Time","timestamp":"070"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,70.04275608913394500,0],"from":"Orvid","action":"Time","timestamp":"070"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,70.04275608913394500,0],"from":"Orvid","action":"Time","timestamp":"070"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,70.04275608913394500,0],"from":"Orvid","action":"Time","timestamp":"070"}]}
+Read frame: text true
+Player.onMessage: msg: [12,72.02867908382097500,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,72.02867908382097500,0],"from":"Orvid","action":"Time","timestamp":"072"}
+Handling a message: 4:83+:/play:[12.0,72.028679083820975,0.0]
+Broadcasting message [12,72.02867908382097500,0]
+Sending acknowledgement for msg: 6:::83+[72.02867908382097539,72]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::83+[72.02867908382097539,72]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,72.02867908382097500,0],"from":"Orvid","action":"Time","timestamp":"072"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,72.02867908382097500,0],"from":"Orvid","action":"Time","timestamp":"072"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,72.02867908382097500,0],"from":"Orvid","action":"Time","timestamp":"072"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,72.02867908382097500,0],"from":"Orvid","action":"Time","timestamp":"072"}]}
+Read frame: text true
+Player.onMessage: msg: [12,74.03230607845662800,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,74.03230607845662800,0],"from":"Orvid","action":"Time","timestamp":"074"}
+Handling a message: 4:84+:/play:[12.0,74.032306078456628,0.0]
+Broadcasting message [12,74.03230607845662800,0]
+Sending acknowledgement for msg: 6:::84+[74.03230607845662803,74]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::84+[74.03230607845662803,74]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,74.03230607845662800,0],"from":"Orvid","action":"Time","timestamp":"074"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,74.03230607845662800,0],"from":"Orvid","action":"Time","timestamp":"074"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,74.03230607845662800,0],"from":"Orvid","action":"Time","timestamp":"074"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,74.03230607845662800,0],"from":"Orvid","action":"Time","timestamp":"074"}]}
+Read frame: text true
+Player.onMessage: msg: [12,76.00087539383395100,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,76.00087539383395100,0],"from":"Orvid","action":"Time","timestamp":"076"}
+Handling a message: 4:85+:/play:[12.0,76.000875393833951,0.0]
+Broadcasting message [12,76.00087539383395100,0]
+Sending acknowledgement for msg: 6:::85+[76.00087539383395097,76]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::85+[76.00087539383395097,76]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,76.00087539383395100,0],"from":"Orvid","action":"Time","timestamp":"076"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,76.00087539383395100,0],"from":"Orvid","action":"Time","timestamp":"076"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,76.00087539383395100,0],"from":"Orvid","action":"Time","timestamp":"076"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,76.00087539383395100,0],"from":"Orvid","action":"Time","timestamp":"076"}]}
+Read frame: text true
+Handling a message: 4:86+:/play:[12.0,78.0401190554795,0.0]
+Broadcasting message [12,78.04011905547950000,0]
+Player.onMessage: msg: [12,78.04011905547950000,0]
+Sending acknowledgement for msg: 6:::86+[78.04011905547949368,78]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::86+[78.04011905547949368,78]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,78.04011905547950000,0],"from":"Orvid","action":"Time","timestamp":"078"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,78.04011905547950000,0],"from":"Orvid","action":"Time","timestamp":"078"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,78.04011905547950000,0],"from":"Orvid","action":"Time","timestamp":"078"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,78.04011905547950000,0],"from":"Orvid","action":"Time","timestamp":"078"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,78.04011905547950000,0],"from":"Orvid","action":"Time","timestamp":"078"}]}
+Read frame: text true
+Player.onMessage: msg: [12,80.02997442930126200,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,80.02997442930126200,0],"from":"Orvid","action":"Time","timestamp":"080"}
+Handling a message: 4:87+:/play:[12.0,80.029974429301262,0.0]
+Broadcasting message [12,80.02997442930126200,0]
+Sending acknowledgement for msg: 6:::87+[80.02997442930126226,80]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::87+[80.02997442930126226,80]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,80.02997442930126200,0],"from":"Orvid","action":"Time","timestamp":"080"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,80.02997442930126200,0],"from":"Orvid","action":"Time","timestamp":"080"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,80.02997442930126200,0],"from":"Orvid","action":"Time","timestamp":"080"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,80.02997442930126200,0],"from":"Orvid","action":"Time","timestamp":"080"}]}
+Read frame: text true
+Player.onMessage: msg: [12,82.01625204479975700,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,82.01625204479975700,0],"from":"Orvid","action":"Time","timestamp":"082"}
+Handling a message: 4:88+:/play:[12.0,82.016252044799757,0.0]
+Broadcasting message [12,82.01625204479975700,0]
+Sending acknowledgement for msg: 6:::88+[82.01625204479975650,82]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::88+[82.01625204479975650,82]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,82.01625204479975700,0],"from":"Orvid","action":"Time","timestamp":"082"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,82.01625204479975700,0],"from":"Orvid","action":"Time","timestamp":"082"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,82.01625204479975700,0],"from":"Orvid","action":"Time","timestamp":"082"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,82.01625204479975700,0],"from":"Orvid","action":"Time","timestamp":"082"}]}
+Read frame: text true
+Player.onMessage: msg: [12,84.03577826512287200,0]
+Handling a message: 4:89+:/play:[12.0,84.035778265122872,0.0]
+Broadcasting message [12,84.03577826512287200,0]
+Sending acknowledgement for msg: 6:::89+[84.03577826512287174,84]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::89+[84.03577826512287174,84]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,84.03577826512287200,0],"from":"Orvid","action":"Time","timestamp":"084"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,84.03577826512287200,0],"from":"Orvid","action":"Time","timestamp":"084"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,84.03577826512287200,0],"from":"Orvid","action":"Time","timestamp":"084"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,84.03577826512287200,0],"from":"Orvid","action":"Time","timestamp":"084"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,84.03577826512287200,0],"from":"Orvid","action":"Time","timestamp":"084"}]}
+Read frame: text true
+Player.onMessage: msg: [12,86.02728617548994800,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,86.02728617548994800,0],"from":"Orvid","action":"Time","timestamp":"086"}
+Handling a message: 4:90+:/play:[12.0,86.027286175489948,0.0]
+Broadcasting message [12,86.02728617548994800,0]
+Sending acknowledgement for msg: 6:::90+[86.02728617548994805,86]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::90+[86.02728617548994805,86]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,86.02728617548994800,0],"from":"Orvid","action":"Time","timestamp":"086"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,86.02728617548994800,0],"from":"Orvid","action":"Time","timestamp":"086"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,86.02728617548994800,0],"from":"Orvid","action":"Time","timestamp":"086"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,86.02728617548994800,0],"from":"Orvid","action":"Time","timestamp":"086"}]}
+Read frame: text true
+Handling a message: 4:91+:/play:[12.0,88.0497991480199,0.0]
+Broadcasting message [12,88.04979914801990001,0]
+Player.onMessage: msg: [12,88.04979914801990001,0]
+Sending acknowledgement for msg: 6:::91+[88.04979914801990049,88]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::91+[88.04979914801990049,88]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,88.04979914801990001,0],"from":"Orvid","action":"Time","timestamp":"088"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,88.04979914801990001,0],"from":"Orvid","action":"Time","timestamp":"088"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,88.04979914801990001,0],"from":"Orvid","action":"Time","timestamp":"088"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,88.04979914801990001,0],"from":"Orvid","action":"Time","timestamp":"088"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,88.04979914801990001,0],"from":"Orvid","action":"Time","timestamp":"088"}]}
+Read frame: text true
+Player.onMessage: msg: [12,90.00887209536904299,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,90.00887209536904299,0],"from":"Orvid","action":"Time","timestamp":"090"}
+Handling a message: 4:92+:/play:[12.0,90.008872095369043,0.0]
+Broadcasting message [12,90.00887209536904299,0]
+Sending acknowledgement for msg: 6:::92+[90.00887209536904265,90]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::92+[90.00887209536904265,90]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,90.00887209536904299,0],"from":"Orvid","action":"Time","timestamp":"090"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,90.00887209536904299,0],"from":"Orvid","action":"Time","timestamp":"090"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,90.00887209536904299,0],"from":"Orvid","action":"Time","timestamp":"090"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,90.00887209536904299,0],"from":"Orvid","action":"Time","timestamp":"090"}]}
+Read frame: text true
+Player.onMessage: msg: [12,92.02306299065568900,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,92.02306299065568900,0],"from":"Orvid","action":"Time","timestamp":"093"}
+Handling a message: 4:93+:/play:[12.0,92.023062990655689,0.0]
+Broadcasting message [12,92.02306299065568900,0]
+Sending acknowledgement for msg: 6:::93+[92.02306299065568851,93]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::93+[92.02306299065568851,93]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,92.02306299065568900,0],"from":"Orvid","action":"Time","timestamp":"093"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,92.02306299065568900,0],"from":"Orvid","action":"Time","timestamp":"093"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,92.02306299065568900,0],"from":"Orvid","action":"Time","timestamp":"093"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,92.02306299065568900,0],"from":"Orvid","action":"Time","timestamp":"093"}]}
+Read frame: text true
+Player.onMessage: msg: [12,95.02794103835640001,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,95.02794103835640001,0],"from":"Orvid","action":"Time","timestamp":"095"}
+Handling a message: 4:94+:/play:[12.0,95.0279410383564,0.0]
+Broadcasting message [12,95.02794103835640001,0]
+Sending acknowledgement for msg: 6:::94+[95.02794103835640271,95]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::94+[95.02794103835640271,95]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,95.02794103835640001,0],"from":"Orvid","action":"Time","timestamp":"095"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,95.02794103835640001,0],"from":"Orvid","action":"Time","timestamp":"095"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,95.02794103835640001,0],"from":"Orvid","action":"Time","timestamp":"095"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,95.02794103835640001,0],"from":"Orvid","action":"Time","timestamp":"095"}]}
+Read frame: text true
+Handling a message: 4:95+:/play:[12.0,97.0251622764776,0.0]
+Broadcasting message [12,97.02516227647760000,0]
+Player.onMessage: msg: [12,97.02516227647760000,0]
+Sending acknowledgement for msg: 6:::95+[97.02516227647760161,97]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::95+[97.02516227647760161,97]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,97.02516227647760000,0],"from":"Orvid","action":"Time","timestamp":"097"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,97.02516227647760000,0],"from":"Orvid","action":"Time","timestamp":"097"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,97.02516227647760000,0],"from":"Orvid","action":"Time","timestamp":"097"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,97.02516227647760000,0],"from":"Orvid","action":"Time","timestamp":"097"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,97.02516227647760000,0],"from":"Orvid","action":"Time","timestamp":"097"}]}
+Read frame: text true
+Handling a message: 4:96+:/play:[12.0,99.03789811227179,0.0]
+Broadcasting message [12,99.03789811227179000,0]
+Player.onMessage: msg: [12,99.03789811227179000,0]
+Sending acknowledgement for msg: 6:::96+[99.03789811227179030,99]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::96+[99.03789811227179030,99]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,99.03789811227179000,0],"from":"Orvid","action":"Time","timestamp":"099"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,99.03789811227179000,0],"from":"Orvid","action":"Time","timestamp":"099"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,99.03789811227179000,0],"from":"Orvid","action":"Time","timestamp":"099"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,99.03789811227179000,0],"from":"Orvid","action":"Time","timestamp":"099"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,99.03789811227179000,0],"from":"Orvid","action":"Time","timestamp":"099"}]}
+Read frame: text true
+Player.onMessage: msg: [12,101.00198309473012000,0]
+Handling a message: 4:97+:/play:[12.0,101.00198309473012,0.0]
+Broadcasting message [12,101.00198309473012000,0]
+Sending acknowledgement for msg: 6:::97+[101.00198309473012159,101]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::97+[101.00198309473012159,101]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,101.00198309473012000,0],"from":"Orvid","action":"Time","timestamp":"101"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,101.00198309473012000,0],"from":"Orvid","action":"Time","timestamp":"101"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,101.00198309473012000,0],"from":"Orvid","action":"Time","timestamp":"101"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,101.00198309473012000,0],"from":"Orvid","action":"Time","timestamp":"101"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,101.00198309473012000,0],"from":"Orvid","action":"Time","timestamp":"101"}]}
+Read frame: text true
+Player.onMessage: msg: [12,103.00320905804486000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,103.00320905804486000,0],"from":"Orvid","action":"Time","timestamp":"103"}
+Handling a message: 4:98+:/play:[12.0,103.00320905804486,0.0]
+Broadcasting message [12,103.00320905804486000,0]
+Sending acknowledgement for msg: 6:::98+[103.00320905804485960,103]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::98+[103.00320905804485960,103]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,103.00320905804486000,0],"from":"Orvid","action":"Time","timestamp":"103"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,103.00320905804486000,0],"from":"Orvid","action":"Time","timestamp":"103"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,103.00320905804486000,0],"from":"Orvid","action":"Time","timestamp":"103"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,103.00320905804486000,0],"from":"Orvid","action":"Time","timestamp":"103"}]}
+Read frame: text true
+Player.onMessage: msg: [12,105.02190282221427000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,105.02190282221427000,0],"from":"Orvid","action":"Time","timestamp":"105"}
+Handling a message: 4:99+:/play:[12.0,105.02190282221427,0.0]
+Broadcasting message [12,105.02190282221427000,0]
+Sending acknowledgement for msg: 6:::99+[105.02190282221427253,105]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::99+[105.02190282221427253,105]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,105.02190282221427000,0],"from":"Orvid","action":"Time","timestamp":"105"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,105.02190282221427000,0],"from":"Orvid","action":"Time","timestamp":"105"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,105.02190282221427000,0],"from":"Orvid","action":"Time","timestamp":"105"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,105.02190282221427000,0],"from":"Orvid","action":"Time","timestamp":"105"}]}
+Read frame: text true
+Handling a message: 4:100+:/play:[12.0,107.019171978782,0.0]
+Broadcasting message [12,107.01917197878200000,0]
+Player.onMessage: msg: [12,107.01917197878200000,0]
+Sending acknowledgement for msg: 6:::100+[107.01917197878199772,107]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::100+[107.01917197878199772,107]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,107.01917197878200000,0],"from":"Orvid","action":"Time","timestamp":"107"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,107.01917197878200000,0],"from":"Orvid","action":"Time","timestamp":"107"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,107.01917197878200000,0],"from":"Orvid","action":"Time","timestamp":"107"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,107.01917197878200000,0],"from":"Orvid","action":"Time","timestamp":"107"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,107.01917197878200000,0],"from":"Orvid","action":"Time","timestamp":"107"}]}
+Read frame: text true
+Player.onMessage: msg: [12,108.96891900399611000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,108.96891900399611000,0],"from":"Orvid","action":"Time","timestamp":"109"}
+Handling a message: 4:101+:/play:[12.0,108.96891900399611,0.0]
+Broadcasting message [12,108.96891900399611000,0]
+Sending acknowledgement for msg: 6:::101+[108.96891900399610620,109]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::101+[108.96891900399610620,109]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,108.96891900399611000,0],"from":"Orvid","action":"Time","timestamp":"109"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,108.96891900399611000,0],"from":"Orvid","action":"Time","timestamp":"109"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,108.96891900399611000,0],"from":"Orvid","action":"Time","timestamp":"109"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,108.96891900399611000,0],"from":"Orvid","action":"Time","timestamp":"109"}]}
+Read frame: text true
+Handling a message: 4:102+:/play:[12.0,111.01081604184094,0.0]
+Broadcasting message [12,111.01081604184094000,0]
+Player.onMessage: msg: [12,111.01081604184094000,0]
+Sending acknowledgement for msg: 6:::102+[111.01081604184093976,111]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::102+[111.01081604184093976,111]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,111.01081604184094000,0],"from":"Orvid","action":"Time","timestamp":"111"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,111.01081604184094000,0],"from":"Orvid","action":"Time","timestamp":"111"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,111.01081604184094000,0],"from":"Orvid","action":"Time","timestamp":"111"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,111.01081604184094000,0],"from":"Orvid","action":"Time","timestamp":"111"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,111.01081604184094000,0],"from":"Orvid","action":"Time","timestamp":"111"}]}
+Read frame: text true
+Handling a message: 4:103+:/play:[12.0,113.02040184656816,0.0]
+Broadcasting message [12,113.02040184656815999,0]
+Player.onMessage: msg: [12,113.02040184656815999,0]
+Sending acknowledgement for msg: 6:::103+[113.02040184656816280,113]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::103+[113.02040184656816280,113]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,113.02040184656815999,0],"from":"Orvid","action":"Time","timestamp":"113"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,113.02040184656815999,0],"from":"Orvid","action":"Time","timestamp":"113"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,113.02040184656815999,0],"from":"Orvid","action":"Time","timestamp":"113"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,113.02040184656815999,0],"from":"Orvid","action":"Time","timestamp":"113"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,113.02040184656815999,0],"from":"Orvid","action":"Time","timestamp":"113"}]}
+Read frame: text true
+Player.onMessage: msg: [12,114.99054882814241000,0]
+Handling a message: 4:104+:/play:[12.0,114.99054882814241,0.0]
+Broadcasting message [12,114.99054882814241000,0]
+Sending acknowledgement for msg: 6:::104+[114.99054882814240841,115]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::104+[114.99054882814240841,115]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,114.99054882814241000,0],"from":"Orvid","action":"Time","timestamp":"115"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,114.99054882814241000,0],"from":"Orvid","action":"Time","timestamp":"115"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,114.99054882814241000,0],"from":"Orvid","action":"Time","timestamp":"115"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,114.99054882814241000,0],"from":"Orvid","action":"Time","timestamp":"115"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,114.99054882814241000,0],"from":"Orvid","action":"Time","timestamp":"115"}]}
+Read frame: text true
+Handling a message: 4:105+:/play:[12.0,117.02437609837057,0.0]
+Broadcasting message [12,117.02437609837057000,0]
+Player.onMessage: msg: [12,117.02437609837057000,0]
+Sending acknowledgement for msg: 6:::105+[117.02437609837056698,117]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::105+[117.02437609837056698,117]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,117.02437609837057000,0],"from":"Orvid","action":"Time","timestamp":"117"}
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,117.02437609837057000,0],"from":"Orvid","action":"Time","timestamp":"117"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,117.02437609837057000,0],"from":"Orvid","action":"Time","timestamp":"117"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,117.02437609837057000,0],"from":"Orvid","action":"Time","timestamp":"117"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,117.02437609837057000,0],"from":"Orvid","action":"Time","timestamp":"117"}]}
+Read frame: text true
+Player.onMessage: msg: [12,119.02643809221863000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,119.02643809221863000,0],"from":"Orvid","action":"Time","timestamp":"119"}
+Handling a message: 4:106+:/play:[12.0,119.02643809221863,0.0]
+Broadcasting message [12,119.02643809221863000,0]
+Sending acknowledgement for msg: 6:::106+[119.02643809221862625,119]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::106+[119.02643809221862625,119]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,119.02643809221863000,0],"from":"Orvid","action":"Time","timestamp":"119"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,119.02643809221863000,0],"from":"Orvid","action":"Time","timestamp":"119"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,119.02643809221863000,0],"from":"Orvid","action":"Time","timestamp":"119"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,119.02643809221863000,0],"from":"Orvid","action":"Time","timestamp":"119"}]}
+Handling a message: 4:107+:/play:[12.0,121.00603707466104,0.0]
+Read frame: text true
+Player.onMessage: msg: [12,121.00603707466104000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,121.00603707466104000,0],"from":"Orvid","action":"Time","timestamp":"121"}
+Broadcasting message [12,121.00603707466104000,0]
+Sending acknowledgement for msg: 6:::107+[121.00603707466103742,121]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::107+[121.00603707466103742,121]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,121.00603707466104000,0],"from":"Orvid","action":"Time","timestamp":"121"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,121.00603707466104000,0],"from":"Orvid","action":"Time","timestamp":"121"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,121.00603707466104000,0],"from":"Orvid","action":"Time","timestamp":"121"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,121.00603707466104000,0],"from":"Orvid","action":"Time","timestamp":"121"}]}
+Read frame: text true
+Player.onMessage: msg: [12,123.02391507127734000,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,123.02391507127734000,0],"from":"Orvid","action":"Time","timestamp":"123"}
+Handling a message: 4:108+:/play:[12.0,123.02391507127734,0.0]
+Broadcasting message [12,123.02391507127734000,0]
+Sending acknowledgement for msg: 6:::108+[123.02391507127734371,123]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::108+[123.02391507127734371,123]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,123.02391507127734000,0],"from":"Orvid","action":"Time","timestamp":"123"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,123.02391507127734000,0],"from":"Orvid","action":"Time","timestamp":"123"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,123.02391507127734000,0],"from":"Orvid","action":"Time","timestamp":"123"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,123.02391507127734000,0],"from":"Orvid","action":"Time","timestamp":"123"}]}
+Read frame: text true
+Player.onMessage: msg: [12,125.01108842012535999,0]
+Analytics.emit() signal: messages, data: {"connections":1,"msg":[12,125.01108842012535999,0],"from":"Orvid","action":"Time","timestamp":"127"}
+Handling a message: 4:109+:/play:[12.0,125.01108842012536,0.0]
+Broadcasting message [12,125.01108842012535999,0]
+Sending acknowledgement for msg: 6:::109+[125.01108842012536115,127]
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 6:::109+[125.01108842012536115,127]
+Sending message to eYEpTVgbM_qf9Ixg4QHKGXfDvQg84Vpr: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,125.01108842012535999,0],"from":"Orvid","action":"Time","timestamp":"127"}]}
+Sending message to ySed2g0sjjOc0UJ6FkiKb9-RNMbKznFw: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,125.01108842012535999,0],"from":"Orvid","action":"Time","timestamp":"127"}]}
+Sending message to 23IcyJ8VlHsKgtYftStJQT4R8Rum_IK5: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,125.01108842012535999,0],"from":"Orvid","action":"Time","timestamp":"127"}]}
+Sending message to rvKg4UfYjr0Ts6r9OgloVcFhU6rG-w7u: 5:::{"name":"messages","args":[{"connections":1,"msg":[12,125.01108842012535999,0],"from":"Orvid","action":"Time","timestamp":"127"}]}
+Read frame: text true
+Player.socket.onDisconnect
+Handling a message: 0::/play:
+Sending message to kNuIVG0LKBYxNYA1krpuNHTlSTkMgfhE: 0:::
+127.0.0.1 disconnected from /play
+Orvid has left the game
+The application was terminated by a signal: SIGSEGV
+

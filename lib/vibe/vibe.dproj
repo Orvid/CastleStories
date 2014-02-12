@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{367E8788-6EEA-40B6-A9AF-FD203A334EFB}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+    <DependentProjectIds>
+      <DependentProjectIds>
+        <String>{92D766D5-50E1-4F7F-B095-59237B2222D2}</String>
+        <String>{498D3D41-DE42-4C5B-B8F0-765296236736}</String>
+      </DependentProjectIds>
+    </DependentProjectIds>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>vibe.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <VersionIds>
+      <VersionIds>
+        <String>VibeLibeventDriver</String>
+      </VersionIds>
+    </VersionIds>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>StaticLibrary</Target>
+    <OutputName>vibe.a</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <VersionIds>
+      <VersionIds>
+        <String>VibeLibeventDriver</String>
+      </VersionIds>
+    </VersionIds>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>vibe.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <VersionIds>
+      <VersionIds>
+        <String>VibeLibeventDriver</String>
+      </VersionIds>
+    </VersionIds>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="vibe\appmain.d" />
+    <Compile Include="vibe\core\args.d" />
+    <Compile Include="vibe\core\concurrency.d" />
+    <Compile Include="vibe\core\connectionpool.d" />
+    <Compile Include="vibe\core\core.d" />
+    <Compile Include="vibe\core\driver.d" />
+    <Compile Include="vibe\core\drivers\libev.d" />
+    <Compile Include="vibe\core\drivers\libevent2.d" />
+    <Compile Include="vibe\core\drivers\libevent2_tcp.d" />
+    <Compile Include="vibe\core\drivers\threadedfile.d" />
+    <Compile Include="vibe\core\drivers\win32.d" />
+    <Compile Include="vibe\core\drivers\winrt.d" />
+    <Compile Include="vibe\core\file.d" />
+    <Compile Include="vibe\core\log.d" />
+    <Compile Include="vibe\core\net.d" />
+    <Compile Include="vibe\core\stream.d" />
+    <Compile Include="vibe\core\sync.d" />
+    <Compile Include="vibe\core\task.d" />
+    <Compile Include="vibe\crypto\cryptorand.d" />
+    <Compile Include="vibe\crypto\passwordhash.d" />
+    <Compile Include="vibe\d.d" />
+    <Compile Include="vibe\data\bson.d" />
+    <Compile Include="vibe\data\json.d" />
+    <Compile Include="vibe\data\serialization.d" />
+    <Compile Include="vibe\db\mongo\client.d" />
+    <Compile Include="vibe\db\mongo\collection.d" />
+    <Compile Include="vibe\db\mongo\connection.d" />
+    <Compile Include="vibe\db\mongo\cursor.d" />
+    <Compile Include="vibe\db\mongo\database.d" />
+    <Compile Include="vibe\db\mongo\mongo.d" />
+    <Compile Include="vibe\db\redis\redis.d" />
+    <Compile Include="vibe\http\auth\basic_auth.d" />
+    <Compile Include="vibe\http\client.d" />
+    <Compile Include="vibe\http\common.d" />
+    <Compile Include="vibe\http\dist.d" />
+    <Compile Include="vibe\http\fileserver.d" />
+    <Compile Include="vibe\http\form.d" />
+    <Compile Include="vibe\http\log.d" />
+    <Compile Include="vibe\http\proxy.d" />
+    <Compile Include="vibe\http\rest.d" />
+    <Compile Include="vibe\http\router.d" />
+    <Compile Include="vibe\http\server.d" />
+    <Compile Include="vibe\http\session.d" />
+    <Compile Include="vibe\http\status.d" />
+    <Compile Include="vibe\http\websockets.d" />
+    <Compile Include="vibe\inet\message.d" />
+    <Compile Include="vibe\inet\mimetypes.d" />
+    <Compile Include="vibe\inet\path.d" />
+    <Compile Include="vibe\inet\url.d" />
+    <Compile Include="vibe\inet\urltransfer.d" />
+    <Compile Include="vibe\inet\webform.d" />
+    <Compile Include="vibe\internal\meta\all.d" />
+    <Compile Include="vibe\internal\meta\codegen.d" />
+    <Compile Include="vibe\internal\meta\funcattr.d" />
+    <Compile Include="vibe\internal\meta\traits.d" />
+    <Compile Include="vibe\internal\meta\typetuple.d" />
+    <Compile Include="vibe\internal\meta\uda.d" />
+    <Compile Include="vibe\internal\win32.d" />
+    <Compile Include="vibe\mail\smtp.d" />
+    <Compile Include="vibe\stream\base64.d" />
+    <Compile Include="vibe\stream\counting.d" />
+    <Compile Include="vibe\stream\memory.d" />
+    <Compile Include="vibe\stream\operations.d" />
+    <Compile Include="vibe\stream\ssl.d" />
+    <Compile Include="vibe\stream\taskpipe.d" />
+    <Compile Include="vibe\stream\wrapper.d" />
+    <Compile Include="vibe\stream\zlib.d" />
+    <Compile Include="vibe\templ\diet.d" />
+    <Compile Include="vibe\templ\parsertools.d" />
+    <Compile Include="vibe\templ\utils.d" />
+    <Compile Include="vibe\textfilter\html.d" />
+    <Compile Include="vibe\textfilter\markdown.d" />
+    <Compile Include="vibe\textfilter\urlencode.d" />
+    <Compile Include="vibe\utils\array.d" />
+    <Compile Include="vibe\utils\hashmap.d" />
+    <Compile Include="vibe\utils\memory.d" />
+    <Compile Include="vibe\utils\string.d" />
+    <Compile Include="vibe\utils\validation.d" />
+    <Compile Include="vibe\vibe.d" />
+  </ItemGroup>
+</Project>

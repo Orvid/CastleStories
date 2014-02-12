@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92D766D5-50E1-4F7F-B095-59237B2222D2}</ProjectGuid>
+    <UseDefaultCompiler>true</UseDefaultCompiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <Compiler>DMD HEAD</Compiler>
+    <IncrementalLinking>true</IncrementalLinking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ObjectsDirectory>obj/Debug</ObjectsDirectory>
+    <UnittestMode>false</UnittestMode>
+    <OutputName>deimos.event2.a</OutputName>
+    <Target>StaticLibrary</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>StaticLibrary</Target>
+    <OutputName>deimos.event2.a</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <ObjectsDirectory>obj/Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <ObjectsDirectory>obj/Unittest</ObjectsDirectory>
+    <UnittestMode>true</UnittestMode>
+    <OutputName>deimos.event2.a</OutputName>
+    <Target>Executable</Target>
+    <Externalconsole>true</Externalconsole>
+    <DebugLevel>0</DebugLevel>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="deimos\event2\_d_util.d" />
+    <Compile Include="deimos\event2\_tailq.d" />
+    <Compile Include="deimos\event2\buffer.d" />
+    <Compile Include="deimos\event2\bufferevent.d" />
+    <Compile Include="deimos\event2\bufferevent_ssl.d" />
+    <Compile Include="deimos\event2\dns.d" />
+    <Compile Include="deimos\event2\dns_struct.d" />
+    <Compile Include="deimos\event2\event.d" />
+    <Compile Include="deimos\event2\event_struct.d" />
+    <Compile Include="deimos\event2\http.d" />
+    <Compile Include="deimos\event2\http_struct.d" />
+    <Compile Include="deimos\event2\keyvalq_struct.d" />
+    <Compile Include="deimos\event2\listener.d" />
+    <Compile Include="deimos\event2\rpc.d" />
+    <Compile Include="deimos\event2\rpc_struct.d" />
+    <Compile Include="deimos\event2\tag.d" />
+    <Compile Include="deimos\event2\thread.d" />
+    <Compile Include="deimos\event2\util.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="deimos\" />
+    <Folder Include="deimos\event2\" />
+  </ItemGroup>
+</Project>
