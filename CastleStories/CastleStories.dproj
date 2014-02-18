@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6558FD37-6006-4F99-9DD8-3E8EE9FDBEA7}</ProjectGuid>
     <UseDefaultCompiler>true</UseDefaultCompiler>
@@ -64,7 +64,8 @@
 -L/usr/local/Cellar/libevent/2.0.21/lib/libevent_pthreads.a
 -Jviews
 -Jpublic
--J./</ExtraCompilerArguments>
+-J./
+-v</ExtraCompilerArguments>
     <ConsolePause>false</ConsolePause>
     <LinkinThirdPartyLibraries>true</LinkinThirdPartyLibraries>
   </PropertyGroup>

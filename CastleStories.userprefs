@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Applications/MyApps/dmd8/install/import/object.di">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lib/socket.io/socket/io/package.d">
     <Files>
       <File FileName="CastleStories/main.d" Line="1" Column="1" />
       <File FileName="CastleStories/OriginalServer/app.js" Line="1" Column="1" />
@@ -16,9 +16,8 @@
       <File FileName="CastleStories/EmptyTextFile.txt" Line="1" Column="1" />
       <File FileName="lib/std.event/std/event.d" Line="1" Column="1" />
       <File FileName="lib/std.serialization/std/serialization/json.d" Line="1" Column="1" />
-      <File FileName="lib/std.serialization/std/serialization/core.d" Line="16" Column="21" />
-      <File FileName="../../../../Applications/MyApps/dmd8/install/import/object.di" Line="480" Column="45" />
-      <File FileName="lib/vibe/vibe/core/connectionpool.d" Line="100" Column="64" />
+      <File FileName="lib/std.serialization/std/serialization/core.d" Line="1" Column="1" />
+      <File FileName="lib/vibe/vibe/core/connectionpool.d" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
