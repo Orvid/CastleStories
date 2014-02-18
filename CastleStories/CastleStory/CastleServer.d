@@ -8,6 +8,8 @@ import CastleStory.Messages;
 import CastleStory.Observer;
 import CastleStory.Player;
 
+import std.algorithm : filter;
+import std.array : array;
 import std.conv;
 import std.datetime;
 import std.event;
@@ -225,7 +227,7 @@ public:
 
 	void removePlayerEntities(Player player)
 	{
-		auto ents = entities.values.where!(e => e.belongs_to == player.network_id).toArray();
+		auto ents = entities.values.filter!(e => e.belongs_to == player.network_id).array();
 		foreach (e; ents)
 			removeEntity(e);
 		pushDespawnToPlayers(player, ents);
@@ -256,7 +258,7 @@ public:
 	{
 		for (size_t i = 0; i < playerCount; i++)
 		{
-			if (!players.values.where!(p => p.index == i).firstOrDefault())
+			if (!players.values.filter!(p => p.index == i).firstOrDefault())
 				return i;
 		}
 		return playerCount;
@@ -278,7 +280,7 @@ public:
 
 	void pushRelevantEntityListTo(Observer target) 
 	{
-		auto ids = entities.keys.where!(e => e != target.network_id).toArray();
+		auto ids = entities.keys.filter!(e => e != target.network_id).array();
 		logInfo("Pushing a list of %s entities to player: %s", ids.length, target.name);
 		if (ids.length > 0)
 			pushToPlayer(target, new Messages.List(ids));
@@ -286,7 +288,7 @@ public:
 
 	void pushRelevantEntityTo(Observer target)
 	{
-		auto ents = entities.values.where!(e => e.belongs_to != target.network_id).toArray();
+		auto ents = entities.values.filter!(e => e.belongs_to != target.network_id).array();
 		logDebug("Pushing %s entities to player: %s", ents.length, target.name);
 		if (ents.length > 0)
 		{
@@ -341,7 +343,7 @@ public:
 		import std.serialization.json;
 
 		// TODO: The original code had this filter commented out.
-		auto blcks = blocks.where!(b => b.id != target.network_id).toArray();
+		auto blcks = blocks.filter!(b => b.id != target.network_id).array();
 		logInfo("Pushed %s bloc/debloc to player %s", blcks.length, target.name);
 		foreach (b; blcks)
 		{
@@ -364,7 +366,7 @@ public:
 	{
 		for (size_t i = 0; i < observerCount; i++)
 		{
-			if (!observers.values.where!(o => o.index == i).firstOrDefault())
+			if (!observers.values.filter!(o => o.index == i).firstOrDefault())
 				return i;
 		}
 		return observerCount;

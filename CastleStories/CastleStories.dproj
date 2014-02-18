@@ -3314,7 +3314,6 @@
     <None Include="public\js\socket.io\socket.io.min.js" />
     <None Include="public\js\socket.io\WebSocketMain.swf" />
     <None Include="public\js\socket.io\WebSocketMainInsecure.swf" />
-    <None Include="public\favicon.png" />
     <None Include="public\favicon.ico" />
     <None Include="config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

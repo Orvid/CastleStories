@@ -1,5 +1,7 @@
 module main;
 
+import std.algorithm : filter;
+
 import CastleStory.Analyst;
 import CastleStory.Analytics;
 import CastleStory.CastleServer;
@@ -87,7 +89,7 @@ shared static this()
 				logInfo("%s disconnected from /play", conn.handshake.peer);
 			};
 
-			CastleServer game = games.where!(g => g.playerCount < g.maxPlayers).firstOrDefault();
+			CastleServer game = games.filter!(g => g.playerCount < g.maxPlayers).firstOrDefault();
 			// TODO: Provide some sort of error if all games are full.
 			game.updatePopulation();
 			auto p = new Player(conn, socket.endpoints["/play"], game);
@@ -99,7 +101,7 @@ shared static this()
 				logInfo("%s disconnected from /watch", conn.handshake.peer);
 			};
 
-			CastleServer game = games.where!(g => g.observerCount < g.maxObservers).firstOrDefault();
+			CastleServer game = games.filter!(g => g.observerCount < g.maxObservers).firstOrDefault();
 			game.updatePopulation();
 			auto o = new Observer(conn, socket.endpoints["/watch"], game);
 			game.ObserverConnect(o);
@@ -116,7 +118,6 @@ shared static this()
 
 	router
 		.file!"favicon.ico"
-		//.file!"favicon.png"
 		.file!"css/bootstrap.min.css"
 		.file!"css/style.css"
 		.file!"img/bg_left_white.gif"
@@ -138,20 +139,20 @@ shared static this()
 		.file!"js/realtime.js"
 		.file!"js/script.js"
 		.file!"js/sortables.js"
-		.view!("home", "")
-		.view!("auth", "admins")
-		.view!("auth", "server")
-		.view!("entities", "blocks")
-		.view!("entities", "spawned")
-		.view!("maps", "")
+//		.view!("home", "")
+//		.view!("auth", "admins")
+//		.view!("auth", "server")
+//		.view!("entities", "blocks")
+//		.view!("entities", "spawned")
+//		.view!("maps", "")
 		.view!("realtime", "overview")
-		.view!("sessions", "current")
-		.view!("sessions", "persistent")
-		.view!("sessions", "recorded")
-		.view!("settings", "games")
-		.view!("settings", "server")
-		.view!("users", "observers")
-		.view!("users", "players")
+//		.view!("sessions", "current")
+//		.view!("sessions", "persistent")
+//		.view!("sessions", "recorded")
+//		.view!("settings", "games")
+//		.view!("settings", "server")
+//		.view!("users", "observers")
+//		.view!("users", "players")
 	;
 
 	auto settings = new HTTPServerSettings();
