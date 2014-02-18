@@ -1,7 +1,0 @@
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/obj/Release/MonoDevelop.Vibe.Slim.addin.xml
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/obj/Release/MonoDevelop.Vibe.Slim.SlimTemplateSyntaxMode.xml
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/bin/Release/MonoDevelop.Vibe.Slim.dll.mdb
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/bin/Release/MonoDevelop.Vibe.Slim.dll
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/obj/Release/MonoDevelop.Vibe.Slim.dll
-/Applications/MyApps/Projects/CastleStories/lib/MonoDevelop.Vibe.Slim/obj/Release/MonoDevelop.Vibe.Slim.dll.mdb

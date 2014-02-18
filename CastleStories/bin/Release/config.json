@@ -1,9 +1,0 @@
-﻿{
-	"latency": 0,
-	"gameCount": 10,
-	"maxPlayers": 1,
-	"maxObservers": 1,
-	"metricsEnabled": true,
-	"mapsPath": "../maps",
-	"port": 8080
-}
