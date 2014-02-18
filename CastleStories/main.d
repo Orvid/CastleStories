@@ -21,8 +21,7 @@ import CastleStory.stubs;
 
 @property URLRouter view(string menu, string submenu)(URLRouter router)
 {
-	enum serializable { a };
-	//import std.serialization.core : serializable;
+	import std.serialization.core : serializable;
 	import std.serialization.json : fromJSON;
 	import vibe.extensions.slim;
 

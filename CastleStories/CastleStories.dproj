@@ -64,8 +64,7 @@
 -L/usr/local/Cellar/libevent/2.0.21/lib/libevent_pthreads.a
 -Jviews
 -Jpublic
--J./
--v</ExtraCompilerArguments>
+-J./</ExtraCompilerArguments>
     <ConsolePause>false</ConsolePause>
     <LinkinThirdPartyLibraries>true</LinkinThirdPartyLibraries>
   </PropertyGroup>

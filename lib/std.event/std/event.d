@@ -98,6 +98,13 @@ struct Event(OPTS...)
 	{
 		return MaybeSynchronous({
 			import std.traits : ReturnType;
+
+			// TODO: Remove me when the DMD bug is fixed, it does
+			//       nothing but force rethrowExceptionHandler to
+			//       be referenced.
+			auto v = {
+				rethrowExceptionHandler(null, null);
+			};
 			
 			static if (is(ReturnType!DelegateType == void))
 			{
