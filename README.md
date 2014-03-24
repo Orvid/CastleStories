@@ -9,4 +9,7 @@ All code is this repository should be considered to be for educational purposes 
 All files in the following directories are hereby released into the public domain. All other files are maintained under the above license.
 ```
 /CastleStories/vibe/extenstensions/
+/lib/MonoDevelop.Vibe.Slim/
+/lib/socket.io/
+/lib/std.localization/
 ```
